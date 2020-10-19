@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# CUSTOM DIRECTORIES
+dataset/
+bonus_exercise_dataset/
+dogs_cars_bikes/
