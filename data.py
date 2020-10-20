@@ -32,5 +32,10 @@ class ImageDataset(object):
         
         return sample
     
-    def show_image(self, ix):
-        plt.imshow(image.load_img(self.filenames[ix]))
+    def show_image(self, i, title='', ax=None):
+        if ax is None:
+            _, ax = plt.subplots()
+        
+        ax.set_title(title)
+        ax.axis('off')
+        ax.imshow(image.load_img(self.filenames[i]))
