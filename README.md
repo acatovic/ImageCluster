@@ -27,7 +27,7 @@ clustered images seems to confirm this. However it is by no means perfect.
 
 ## Pre-requisites
 
-- Python 2.8
+- Python 3.8
 - See `requirements.txt` for complete list of modules
 
 ## Usage
